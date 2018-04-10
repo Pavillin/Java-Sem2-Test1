@@ -6,7 +6,7 @@ package javatest;
  * 200368636
  */
 
-public class NoSuchCategoryException extends Exception
+public class NoSuchCategoryException extends RuntimeException
 {
     //no argument constructor
     public NoSuchCategoryException(){
